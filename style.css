@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(255, 255, 233);
+  }
+  
+  .headerText {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-width: none;
+    color:darkgoldenrod;
+  }
+
+  .grayTextBorder {
+    background-color: rgb(185, 185, 185);
+    color: black;
+    border-color: lightgray;
+    border-style: solid;
+    font-size: xx-large;
+    height: 40px;
+    width: 360px;
+    text-align: right;
+    margin-left: 15%;
+    margin-top: none;
+  }
+  
+  .numberStyle {
+    width: 100px;
+    height: 20px;
+    font-size: x-large;
+  }
+  
+  .specialStyle {
+    width: 35px;
+    height: 20px;
+    font-size: x-large;
+  }
+
+
+  .marginFix {
+    margin-left: 3%;
+    margin-bottom: 3%;
+  }
+
+  .card {
+    background-color: rgb(185, 185, 185);
+    margin-left: 39.5%;
+    margin-right: 39.5%;
+    margin-top: 5%;
+    width: 400px;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-style: thin;
+    border-radius: 5%;
+  }
+
+.btnStyle1{
+  border:none;
+  border-radius: 5px;
+  margin-top: none;
+  margin-bottom: 5%;
+  margin-left:1%;
+  height: 70px;
+  width: 70px;
+  font-size: xx-large;
+
+}
+
+.btnStyle2{
+  border:none;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-left: 6%;
+  margin-bottom: 1px;
+  height: 50px;
+  width: 340px;
+  font-size: xx-large;
+
+}
+
+  .btn:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      border: solid;
+      font-size: x-large;
+  }
