@@ -62,7 +62,10 @@
                 break;
               }
             case '-':
-              this.setOperation('-');
+              if(this.getDisplayText().length == 0){
+                this.addToOperand(myB.target.innerText);
+              }else{
+                this.setOperation('-');
               if(this.getFOperand() == null){
                 this.setFOperand(Number(this.getDisplayText()));
                 console.log("First operand: " + this.getFOperand() + "\nSecond operand: " + this.getSOperand() );
@@ -99,6 +102,27 @@
                 this.updateDisplay('');
                 break;
               }
+              }
+              
+
+
+
+
+
+
+
+              
+
+
+
+
+
+
+
+
+
+
+              break;
             case '/':
               this.setOperation('/');
               if(this.getFOperand() == null){
@@ -136,6 +160,7 @@
                 this.updateDisplay('');
                 break;
               }
+              break;
             case '*':
               this.setOperation('*');
               if(this.getFOperand() == null){
@@ -173,6 +198,7 @@
                 this.updateDisplay('');
                 break;
               }
+              break;
             case 'Clear':
               this.clearAllEntries();
               break;
