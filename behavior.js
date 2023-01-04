@@ -1,6 +1,6 @@
   //*************************************************************************
   //Program: Classic Calculator
-  //Written By: Gaevin Jones
+  //Written By: CodeGlizzy
   //*************************************************************************
   
   class Calculator {
@@ -103,25 +103,6 @@
                 break;
               }
               }
-              
-
-
-
-
-
-
-
-              
-
-
-
-
-
-
-
-
-
-
               break;
             case '/':
               this.setOperation('/');
