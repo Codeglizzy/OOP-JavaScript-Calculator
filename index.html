@@ -12,14 +12,20 @@
     <div>
     <h1 class="headerText">JavaScript Calculator</h1>
     </div>
+    <div class="center-card">
+      
     <div class="card">
-    <button class='btn marginFix btnStyle2' id="clear">
-      Clear
-    </button>
-    <p class="grayTextBorder marginFix" id="base-value"></p>
-    
-    <table class="marginFix">
-        <tr>
+        <div class="container">
+      <div class="center-button">
+        <button class='btn btnStyle2 ' id="clear">
+          Clear
+        </button>
+        </div>
+        <div class="center-text">
+          <p class="grayTextBorder" id="base-value"></p>
+        </div>
+    <table class="container">
+        <tr class="center-button">
           <td>
           <button class="numberStyle btn btnStyle1" >1</button>
           </td>
@@ -36,7 +42,7 @@
           <button class="specialStyle btn btnStyle1" >*</button>
           </td>
         </tr>
-        <tr>
+        <tr class="center-button">
             <td>
             <button class="numberStyle btn btnStyle1" >4</button>
             </td>
@@ -53,7 +59,7 @@
             <button class="specialStyle btn btnStyle1" >/</button>
             </td>
           </tr>
-          <tr>
+          <tr class="center-button">
             <td>
             <button class="numberStyle btn btnStyle1" >7</button>
             </td>
@@ -70,7 +76,7 @@
             <button class="specialStyle btn btnStyle1" >=</button>
             </td>
           </tr>
-          <tr>
+          <tr class="center-button">
             <td></td>
             <td></td>
             <td>
@@ -78,6 +84,8 @@
             </td>
           </tr>
         </table>
+        </div>
+      </div>
         </div>
     <script src="behavior.js"></script>
   </body>
