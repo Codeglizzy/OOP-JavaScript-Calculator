@@ -2,9 +2,6 @@ body {
     background-color: rgb(255, 255, 233);
   }
 
-  p {
-    text-align: right;
-  }
   
   .headerText {
     font-size: 5vmin;
@@ -27,7 +24,7 @@ body {
   .grayTextBorder {
     background-color: rgb(129, 129, 129);
     color: black;
-    border-color: lightgray;
+    border-color: black;
     border-style: solid;
     font-size: 4vmin;
     height: 5vmin;
