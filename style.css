@@ -7,7 +7,7 @@ body {
   }
   
   .headerText {
-    font-size: xx-large;
+    font-size: 5vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,28 +21,20 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10%;
+    padding: 5vmin;
   }
 
   .grayTextBorder {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(129, 129, 129);
     color: black;
     border-color: lightgray;
     border-style: solid;
-    font-size: xx-large;
-    height: 35px;
-    width: 350px;
+    font-size: 4vmin;
+    height: 5vmin;
+    width: 45vmin;
   }
-  .numberStyle {
-    width: 35px;
-    height: 20px;
-    font-size: xx-large;
-  }
-  
-  .specialStyle {
-    width: 35px;
-    height: 20px;
-    font-size: xx-large;
+  .fontStyle {
+    font-size: 5vmin;
   }
 
 
@@ -50,103 +42,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
   }
 
   .center-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 25%;
   }
   .center-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
+    text-align: middle;
   }
 
   .card {
     background-color: rgb(185, 185, 185);
-    padding: none;
-    width: 35%;
-    height: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 1vmin;
+    width: 55vmin;
+    box-shadow: 0 4vmin 8vmin 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-style: thin;
-    border-radius: 5%;
+    border-radius: 5vmin;
     
   }
 
 
-  @media (max-width: 600px) {
-    .btnStyle1 {
-      width: 5px;
-      height: 5px;
-    }
-  }
-
-  @media (min-width: 601px) and (max-width: 1000px) {
-    .btnStyle1 {
-      width: 45px;
-      height: 45px;
-    }
-  }
-
-
-  @media (min-width: 1001px) {
-    .btnStyle1 {
-      width: 70px;
-      height: 70px;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .btnStyle2 {
-      width: 5px;
-      height: 5px;
-    }
-  }
-
-  @media (min-width: 601px) and (max-width: 1000px) {
-    .btnStyle2 {
-      width: 45px;
-      height: 45px;
-    }
-  }
-
-
-  @media (min-width: 1001px) {
-    .btnStyle2 {
-      width: 70px;
-      height: 70px;
-    }
-  }
 
 .btnStyle1{
-  border-radius: 5px;
-  box-shadow: 0 8px 16px 0 rgba(34, 34, 34, 0.2);
-  min-height: 40px;
-  min-width: 40px;
-  max-height: 70px;
-  max-width: 70px;
+  border-radius: .5vmin;
+  box-shadow: 0 2vmin 2vmin 0 rgba(34, 34, 34, 0.2);
+  transition: .3s;
+  width: 8vmin;
   
-  font-size: xx-large;
 
 }
 
 .btnStyle2{
-  border:none;
-  box-shadow: 0 8px 16px 0 rgba(34, 34, 34, 0.2);
-  border-radius: 5px;
-  height: 50px;
-  width: 340px;
-  font-size: xx-large;
+  border: thin;
+  box-shadow: 0 2vmin 2vmin 0 rgba(34, 34, 34, 0.2);
+  border-radius: 2vmin;
+  width: 35vmin;
+  transition: .3s;
 }
-
-  .btn:hover {
-      box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
-      border: solid;
-      font-size: x-large;
-  }
