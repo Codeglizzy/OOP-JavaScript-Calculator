@@ -27,6 +27,7 @@ body {
     border-color: black;
     border-style: solid;
     font-size: 4vmin;
+    text-align: right;
     height: 5vmin;
     width: 45vmin;
   }
